@@ -32,4 +32,8 @@ public class Text {
      * 字符存在的行数
      */
     private List<Integer> existLines;
+    /**
+     * 字符存在的个数
+     */
+    private int existNum;
 }
