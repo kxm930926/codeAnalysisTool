@@ -24,7 +24,7 @@ public class ReadFileTool {
         int whiteLines = 0;
         int commentLines = 0;
         int normalLines = 0;
-        String line = "";
+        String line;
         int lineCount = 0;
         List<Integer> existLines = new ArrayList<Integer>();
         int existNum = 0;
@@ -90,7 +90,7 @@ public class ReadFileTool {
     }
     /**
      * 字符串是否为空
-     * @param str
+     * @param str 待统计字符
      * @return
      */
     public static boolean isBlack(String str) {

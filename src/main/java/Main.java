@@ -10,10 +10,10 @@ public class Main {
         try {
             System.out.println("请输入一个文件夹路径");
             Scanner sc = new Scanner(System.in);
-            String pathStr = sc.nextLine();
+            String path = sc.nextLine();
             System.out.println("请输入待搜索字段");
             String word = sc.nextLine();
-            File file = new File(pathStr);
+            File file = new File(path);
             if (!file.exists()) {
                 System.out.println("你输入的文件路径不存在,请重新输入");
             } else if (file.isFile()) {
